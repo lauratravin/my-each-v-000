@@ -6,8 +6,6 @@ def my_each(array) # put argument(s) here
             yield (array[i])
              i += 1
          end
-    else
-        puts "Hey! No block was given!"
     end
    return array
 end
