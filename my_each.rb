@@ -12,5 +12,6 @@ end
 
 collection = [1, 2, 3, 4]
 
-my_each(collection) { |value|
-  puts value }
+my_each(collection) do |value|
+  puts value
+end
